@@ -4,7 +4,9 @@
     --light: #E7ECEF;
     --dark: #272932;
     --camel: #D8A47F;
-}
+    font-family: 'Roboto', sans-serif;
+
+   }
 
 body {
     background-color: var(--light);
