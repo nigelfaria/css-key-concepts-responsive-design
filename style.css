@@ -20,7 +20,7 @@ p {
 }
 
 
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,28 +34,36 @@ img {
     width: 250px;
 }
 
-@media screen and (min-width:700px){
+@media screen and (min-width:700px) {
     h1 {
         font-size: calc(2.25rem + 0.6vw);
     }
-    
+
     p {
         font-size: calc(0.75rem + 0.6vw);
-    }   
+    }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
     h1 {
         font-size: calc(3.rem + 0.6vw);
     }
-    
+
     p {
         font-size: calc(1.25rem + 0.6vw);
-    }   
+    }
 }
 
-@media screen and (max-width:760px){
-    .cat-ipsum{
+@media screen and (max-width:760px) {
+    .cat-ipsum {
         display: none;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark);
+        color: var(--light);
+    }
+
 }
